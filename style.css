@@ -1,5 +1,14 @@
+/* TODO: 
+    -Potentially add clouds as backgrounds for text/table etc.
+    -Get background to sit well in the center and such
+*/
+
+
 body {
-    font-family: 'Michroma'; 
+    font-family: 'Michroma';
+    background-position: center;
+    background-image: url("");
+    /resources/menu-background-clear.png
 }
 
 .top-divider {
@@ -10,7 +19,7 @@ body {
 }
 
 header {
-    background-color: rgb(0, 255, 255, 0.6);
+    background-color: rgb(77, 150, 182, 0.6);
     font-size: 20px;
     margin-top: -30px;  
     margin-bottom: 30px;
@@ -34,7 +43,6 @@ h1 {
 }
 
 .content {
-    background-color: rgba(181, 181, 181, 0.5);
     font-family: 'Roboto';
     text-align: center;
     max-width: 550px;
@@ -72,6 +80,7 @@ a:hover {
 }
 
 .text-wrapping {
+    font-family: 'Roboto'
     margin: 0 auto;
     outline-style: solid;
     outline-color: lightgray;
@@ -79,3 +88,37 @@ a:hover {
     max-width: 550px;
     text-align: left;
 }
+
+table th, td {
+    margin: 0 auto;
+    border: 5px solid rgba(42, 139, 181, 0.6);
+    border-color: rgba(42,139,181,0.6);
+    background-color: rgba(42, 139, 181, 0.6);
+    font-size: 20px;
+    padding: 0;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+/* if grade is higher than 7.5 */ 
+.good-grade {
+    background-color: rgb(8, 188, 8, 0.6)
+}
+
+/* if grade is higher than 5.5 and lower than 7.5 */
+.medium-grade {
+    background-color: rgb(255, 165, 0, 0.6)
+}
+
+/* if grade is lower than 5.5 */
+.bad-grade {
+    background-color: rgb(255, 0, 0, 0.6)
+}
+
+.unknown-grade {
+    background-color: rgb(128, 128, 128, 0.6)
+}
+
