@@ -122,3 +122,17 @@ table {
     background-color: rgb(128, 128, 128, 0.6)
 }
 
+.blog-row {
+    display: flex;
+    
+
+}
+
+.blog-row div {
+    min-width: 20%;
+    min-height: 100px;
+    margin-right: 25%;
+    margin: 0 auto;
+    background-color: red;
+    padding: 3%;
+}
