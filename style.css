@@ -134,7 +134,13 @@ table {
 .blog-row a {
     margin-right: 5%;
     max-width: 20%;
+    min-width: 20%;
     min-height: 10%;
     background-color: lightblue;
     padding: 3%;
+}
+
+.blog-row a p {
+    min-height: 40%;
+    max-height: 40%;
 }
