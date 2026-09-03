@@ -124,21 +124,16 @@ table {
 }
 
 .blog-row {
+    font-family: Calibri, Arial;
     display: flex;
     margin-top: 3%;
-    margin-bottom: 10%;
-
+    margin-bottom: 5%;
 }
 
 .blog-row a {
+    margin-right: 5%;
     max-width: 20%;
     min-height: 10%;
-    margin: 0 auto;
     background-color: lightblue;
     padding: 3%;
-}
-
-.category-wrapper {
-    max-width: 5%
-    margin: 0 auto
 }
