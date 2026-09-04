@@ -8,9 +8,17 @@ body {
     font-family: 'Michroma';
     background-position: center;
     background-image: url("/resources/menu-background-clear.png");
+
+
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
 }
 
 
