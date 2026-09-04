@@ -1,6 +1,7 @@
 /* TODO: 
     -Potentially add clouds as backgrounds for text/table etc.
-    -Get background to sit well in the center and such
+    -Finish about me page with hobbies, academic achievements etc. (use a list)
+    -Put a HZ logo somewhere
 */
 
 
@@ -13,14 +14,10 @@ body {
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
 }
 
-.hide-scrollbar::-webkit-scrollbar {
-  display: none;
-}
 
+/* header */
 
 .top-divider {
     margin: 0%;
@@ -68,6 +65,10 @@ h1 {
     margin-right: 2%;
     display: flex;
     margin: 0 auto;
+
+
+    /* main content */
+
 }
 .content {
     font-family: 'Roboto';
@@ -76,6 +77,24 @@ h1 {
     margin: 0 auto;
 }
 
+/* any classes with "-profile" are specifically tailored for the profile page */
+.content-profile {
+    font-size: 20px;
+    font-family: 'Roboto';
+    text-align: center;
+    display: inline-block;
+    max-width: 25%;
+    margin-right: 65%;
+    margin-left: 10%;
+    margin-top: -35%;
+}
+
+/* this one is to divide the specific sections of the texts on the profile page */
+.divider-profile {
+    margin-top: 5%;
+    max-width: 0px;
+    max-height: 0px;
+}
 a {
     color: black;
     font-size: 20px;
@@ -100,9 +119,16 @@ a:hover {
     text-align: center;
 }
 
+.media {
+    margin-right: auto;
+    margin-left: 55%;
+    display: inline-block;
+    margin-top: 5%;
+}
 .media-subtitle {
-    margin-top: -50px;
-    text-align: center;
+    margin-top: -3%;
+    margin-right: 4%;
+    text-align: right;
 
 }
 
@@ -115,6 +141,9 @@ a:hover {
     max-width: 550px;
     text-align: left;
 }
+
+
+/* Dashboard page shenanigans */
 
 table th, td {
     margin: 0 auto;
@@ -148,6 +177,9 @@ table {
 .unknown-grade {
     background-color: rgb(128, 128, 128, 0.6)
 }
+
+
+/* blog page shenanigans */
 
 .blog-row {
     margin-left: 2%;
