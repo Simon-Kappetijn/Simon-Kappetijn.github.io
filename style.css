@@ -7,9 +7,12 @@
 body {
     font-family: 'Michroma';
     background-position: center;
-    background-image: url("");
-    /resources/menu-background-clear.png
+    background-image: url("/resources/menu-background-clear.png");
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
 }
+
 
 .top-divider {
     margin: 0%;
@@ -32,6 +35,7 @@ h1 {
 }
 
 .category {
+
     /* keeping this, might add later */
     outline-style: none;
     outline-color: black;
@@ -41,9 +45,22 @@ h1 {
     padding: 0.1%;
     margin-right: 2%;
     display: flex;
+    margin-left: 0.5%
 
 }
 
+.category-wrapper {
+     outline-style: none;
+    outline-color: black;
+    outline-width: 3px;
+    
+    background-color: rgb(128, 128, 128, 0.6);
+    text-align: middle;
+    padding: 0.1%;
+    margin-right: 2%;
+    display: flex;
+    margin: 0 auto;
+}
 .content {
     font-family: 'Roboto';
     text-align: center;
@@ -82,7 +99,7 @@ a:hover {
 }
 
 .text-wrapping {
-    font-family: 'Roboto'
+    font-family: 'Roboto';
     margin: 0 auto;
     outline-style: solid;
     outline-color: lightgray;
@@ -125,6 +142,7 @@ table {
 }
 
 .blog-row {
+    margin-left: 2%;
     font-family: Calibri, Arial;
     display: flex;
     margin-top: 3%;
