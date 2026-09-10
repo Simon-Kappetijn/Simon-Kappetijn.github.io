@@ -82,12 +82,16 @@ h1 {
     font-size: 20px;
     font-family: 'Roboto';
     text-align: center;
-    display: inline-block;
-    max-width: 25%;
-    margin-right: 65%;
-    margin-left: 10%;
-    margin-top: -35%;
+    display: flex;
+    padding-top: 3%;
+    padding-bottom: 2%;
 }
+
+.profile-right {
+ padding-right: 10%;
+ padding-left: 10%;   
+}
+
 
 /* this one is to divide the specific sections of the texts on the profile page */
 .divider-profile {
@@ -119,28 +123,22 @@ a:hover {
     text-align: center;
 }
 
-.media {
-    margin-right: auto;
-    margin-left: 55%;
-    display: inline-block;
-    margin-top: 5%;
-}
-.media-subtitle {
-    margin-top: -3%;
-    margin-right: 4%;
-    text-align: right;
-
-}
 
 .text-wrapping {
     font-family: 'Roboto';
     margin: 0 auto;
     outline-style: solid;
     outline-color: lightgray;
-    background-color: rgb(197, 196, 196, 0.8);
-    max-width: 550px;
+    margin-left: 15%;
+    background-color:rgba(139, 180, 198, 0.6);
+    background-size: cover;
+    max-width: 400px;
     text-align: left;
+    padding: 0.5%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
 }
+
 
 
 /* Dashboard page shenanigans */
