@@ -90,7 +90,6 @@ h1 {
 .profile-right {
  padding-right: 10%;
  padding-left: 10%;   
- display:inline-block;
 }
 
 
@@ -201,3 +200,10 @@ table {
     min-height: 40%;
     max-height: 40%;
 }
+
+/* Why-IT page stuff */
+
+.hr-why-it {
+    margin-bottom: 5%;
+}
+
