@@ -207,3 +207,37 @@ table {
     margin-bottom: 5%;
 }
 
+.category-wrapping-swot {
+    font-family: 'Roboto';
+    display: flex;
+    outline-style: solid;
+    margin-right: 10%;
+    outline-color: lightgray;
+    background-color:rgba(139, 180, 198, 0.6);
+    background-size: cover;
+    max-width: 600px;
+    padding: 0.5%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+
+.category-wrapping-swot p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.swot-divider {
+    background-color: lightsteelblue;
+    font-size: 2px;
+    text-align: center;
+}
+.category-wrapping-swot h3 {
+    text-align: center;
+}
+
+.swot-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10%
+}
